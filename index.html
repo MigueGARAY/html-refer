@@ -1,0 +1,799 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="./style.css">
+    <script src="./script.js" defer></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+</head>
+<body>
+    <header>
+        <h1>HTML elements reference</h1>
+        <p>
+            This page lists all the HTML elements, which are created using tags. They are grouped by function to help you find what you have in mind easily. An alphabetical list of all elements is provided in the sidebar on every element's page as well as this one.
+        </p>
+    </header>
+    <nav class="sidenav">
+        <a href="#main-root">Main root</a>
+        <a href="#document-metadata">Document metadata</a>
+        <a href="#sectioning-root">Sectioning root</a>
+        <a href="#content-sectioning">Content sectioning</a>
+        <a href="#text-content">Text content</a>
+        <a href="#inline-text-semantics">Inline text semantics</a>
+        <a href="#image-and-multimedia">Image and multimedia</a>
+        <a href="#embedded-content">Embedded content</a>
+        <a href="#svg-and-mathml">SVG and MathML</a>
+        <a href="#scripting">Scripting</a>
+        <a href="#demarcating-edits">Demarcating edits</a>
+        <a href="#table-content">Table content</a>
+        <a href="#forms">Forms</a>
+        <a href="#interactive-elements">Interactive elements</a>
+        <a href="#web-components">Web Components</a>
+
+
+    </nav>
+    <main>
+        <section id="main-root">
+            <h2>Main Root</h2>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> represents the root (top-level element) of an HTML document, so it is also referred to as the root element. All other elements must be descendants of this element.
+                </p>
+            </div>
+        </section>
+        <section id="document-metadata">
+            <h2>Document metadata</h2>
+            <p>
+                Metadata contains information about the page. This includes information about styles, scripts and data to help software (search engines, browsers, etc.) use and render the page. Metadata for styles and scripts may be defined in the page or link to another file that has the information. 
+            </p>
+            <button class="accordion">&#60;base&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;base&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;head&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;head&#62;</span> element</strong> contains machine-readable information (metadata) about the document, like its title, scripts, and style sheets.
+                </p>
+            </div>
+            <button class="accordion">&#60;link&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;link&#62;</span> element</strong> specifies relationships between the current document and an external resource. This element is most commonly used to link to CSS, but is also used to establish site icons (both "favicon" style icons and icons for the home screen and apps on mobile devices) among other things.
+                </p>
+            </div>
+            <button class="accordion">&#60;meta&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;meta&#62;</span> element</strong> represents Metadata that cannot be represented by other HTML meta-related elements, like base, link, script, style or title.
+                </p>
+            </div>
+            <button class="accordion">&#60;style&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;style&#62;</span> element</strong> contains style information for a document, or part of a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;title&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;title&#62;</span> element</strong> defines the document's title that is shown in a Browser's title bar or a page's tab.
+                </p>
+            </div>
+        </section>
+        <section id="sectioning-root">
+            <h2>Sectioning root</h2>
+
+            <button class="accordion">&#60;body&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;body&#62;</span> element</strong> represents the content of an HTML document. There can be only one &#60;body&#62; element in a document.
+                </p>
+            </div>
+        </section>
+        <section id="content-sectioning">
+            <h2>Content sectioning</h2>
+            <p>
+                Content sectioning elements allow you to organize the document content into logical pieces. Use the sectioning elements to create a broad outline for your page content, including header and footer navigation, and heading elements to identify sections of content.   
+            </p>
+            <button class="accordion">&#60;address&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;address&#62;</span> element</strong> indicates that the enclosed HTML provides contact information for a person or people, or for an organization.
+                </p>
+            </div>
+            <button class="accordion">&#60;article&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;article&#62;</span> element</strong> represents a self-contained composition in a document, page, application, or site, which is intended to be independently distributable or reusable (e.g., in syndication).
+                </p>
+            </div>
+            <button class="accordion">&#60;aside&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;aside&#62;</span> element</strong> represents a portion of a document whose content is only indirectly related to the document's main content.
+                </p>
+            </div>
+            <button class="accordion">&#60;footer&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;footer&#62;</span> element</strong> represents a footer for its nearest sectioning content or sectioning root element. A &#60;footer&#62; typically contains information about the author of the section, copyright data or links to related documents.
+                </p>
+            </div>
+            <button class="accordion">&#60;header&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;header&#62;</span> element</strong> represents introductory content, typically a group of introductory or navigational aids. It may contain some heading elements but also a logo, a search form, an author name, and other elements.
+                </p>
+            </div>
+            <button class="accordion">
+                &#60;h1&#62;
+                &#60;h2&#62;
+                &#60;h3&#62;
+                &#60;h4&#62;
+                &#60;h5&#62;
+                &#60;h6&#62;
+            </button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;h1&#62;</span> element</strong> represent six levels of section headings. &#60;h1&#62; is the highest section level and &#60;h6&#62; is the lowest.
+                </p>
+            </div>
+            <button class="accordion">&#60;main&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;main&#62;</span> element</strong> represents the dominant content of the body of a document. The main content area consists of content that is directly related to or expands upon the central topic of a document, or the central functionality of an application.
+                </p>
+            </div>
+            <button class="accordion">&#60;nav&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;nav&#62;</span> element</strong> represents a section of a page whose purpose is to provide navigation links, either within the current document or to other documents. Common examples of navigation sections are menus, tables of contents, and indexes.
+                </p>
+            </div>
+            <button class="accordion">&#60;section&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;section&#62;</span> element</strong> represents a generic standalone section of a document, which doesn't have a more specific semantic element to represent it.
+                </p>
+            </div>
+        </section>
+        <section id="text-content">
+            <h2>Text content</h2>
+            <p>
+                Use HTML text content elements to organize blocks or sections of content placed between the opening &#60;body&#62; and closing &#60;&#x2f;body&#62; tags. Important for accessibility and SEO, these elements identify the purpose or structure of that content.     
+            </p>
+            <button class="accordion">&#60;blockquote&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;blockquote&#62;</span> element</strong> (or HTML Block Quotation Element) indicates that the enclosed text is an extended quotation. Usually, this is rendered visually by indentation (see Notes for how to change it). A URL for the source of the quotation may be given using the cite attribute, while a text representation of the source can be given using the cite element.
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;div&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML Content Division element <span class="tag">&#60;div&#62;</span></strong> is the generic container for flow content. It has no effect on the content or layout until styled in some way using CSS (e.g. styling is directly applied to it, or some kind of layout model like Flexbox is applied to its parent element).
+                </p>
+            </div>
+            <button class="accordion">&#60;dl&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dl&#62;</span> element</strong> represents a description list. The element encloses a list of groups of terms (specified using the dt element) and descriptions (provided by dd elements). Common uses for this element are to implement a glossary or to display metadata (a list of key-value pairs).
+                </p>
+            </div>
+            <button class="accordion">&#60;dt&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dt&#62;</span> element</strong> specifies a term in a description or definition list, and as such must be used inside a dl element.
+                </p>
+            </div>
+            <button class="accordion">&#60;figcaption&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;figcaption&#62;</span> or Figure Caption element</strong> represents a caption or legend describing the rest of the contents of its parent figure element.
+                </p>
+            </div>
+            <button class="accordion">&#60;figure&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;figure&#62;</span> (Figure With Optional Caption) element</strong> represents self-contained content, potentially with an optional caption, which is specified using the figcaption element.
+                </p>
+            </div>
+            <button class="accordion">&#60;hr&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;hr&#62;</span> element</strong> represents a thematic break between paragraph-level elements: for example, a change of scene in a story, or a shift of topic within a section.
+                </p>
+            </div>
+            <button class="accordion">&#60;li&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;li&#62;</span> element</strong> is used to represent an item in a list.
+                </p>
+            </div>
+            <button class="accordion">&#60;ol&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;ol&#62;</span> element</strong> represents an ordered list of items — typically rendered as a numbered list.
+                </p>
+            </div>
+            <button class="accordion">&#60;p&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;p&#62;</span> element</strong> epresents a paragraph.
+                </p>
+            </div>
+            <button class="accordion">&#60;pre&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;pre&#62;</span> element</strong> represents preformatted text which is to be presented exactly as written in the HTML file.
+                </p>
+            </div>
+            <button class="accordion">&#60;ul&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;ul&#62;</span> element</strong> represents an unordered list of items, typically rendered as a bulleted list.
+                </p>
+            </div>
+        </section>
+        <section id="inline-text-semantics">
+            <h2>Inline text semantics</h2>
+            <p>
+                Use the HTML inline text semantic to define the meaning, structure, or style of a word, line, or any arbitrary piece of text.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="image-and-multimedia">
+            <h2>Image and multimedia</h2>
+            <p>
+                HTML supports various multimedia resources such as images, audio, and video.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="embedded-content">
+            <h2>Embedded content</h2>
+            <p>
+                In addition to regular multimedia content, HTML can include a variety of other content, even if it's not always easy to interact with.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="svg-and-mathml">
+            <h2>SVG and MathML</h2>
+            <p>
+                You can embed SVG and MathML content directly into HTML documents, using the &#60;svg&#62; and &#60;math&#62; elements.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="scripting">
+            <h2>Scripting</h2>
+            <p>
+                In order to create dynamic content and Web applications, HTML supports the use of scripting languages, most prominently JavaScript. Certain elements support this capability.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="demarcating-edits">
+            <h2>Demarcating edits</h2>
+            <p>
+                These elements let you provide indications that specific parts of the text have been altered.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="table-content">
+            <h2>Table content</h2>
+            <p>
+                The elements here are used to create and handle tabular data.
+            </p>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+            <button class="accordion">&#60;dd&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;dd&#62;</span> element</strong> provides the description, definition, or value for the preceding term (dt) in a description list (dl).
+                </p>
+            </div>
+        </section>
+        <section id="forms">
+            <h2>Forms</h2>
+            <p>
+                HTML provides a number of elements which can be used together to create forms which the user can fill out and submit to the Web site or application. There's a great deal of further information about this available in the HTML forms guide.
+            </p>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+        </section>
+        <section id="interactive-elements">
+            <h2>Interactive elements</h2>
+            <p>
+                HTML offers a selection of elements which help to create interactive user interface objects.
+            </p>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+        </section>
+        <section id="web-components">
+            <h2>Web Components</h2>
+            <p>
+                Web Components is an HTML-related technology which makes it possible to, essentially, create and use custom elements as if it were regular HTML. In addition, you can create custom versions of standard HTML elements.
+            </p>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+            <button class="accordion">&#60;html&#62;</button>
+            <div class="panel">
+                <p>
+                    The <strong>HTML <span class="tag">&#60;html&#62;</span> element</strong> specifies the base URL to use for all relative URLs in a document.
+                </p>
+            </div>
+        </section>
+    </main>
+</body>
+</html>
