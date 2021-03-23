@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;900&display=swap');
+
+
+h1 {
+    font-size: 3.052rem;
+}
+h2 {
+    font-size: 2.052rem;
+}
+
+h1, h2 {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 700; 
+    line-height: 1.2;   
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+span.tag {
+    font-family: 'Courier New', Courier, monospace
+}
+/*********acordion style***************/
+
+.accordion {
+    font-family: 'Courier New', Courier, monospace;
+    background-color: #eee;
+    color: #444;
+    cursor: pointer;
+    padding: 18px;
+    width: 100%;
+    outline: none;
+    font-size: 20px;
+    transition: 0.4s;
+}
+
+.active, .accordion:hover {
+    background-color: #ccc;
+}
+
+.accordion:after {
+    content: '\002B';
+    color: #777;
+    font-weight: bold;
+    float: right;
+    margin-left: 5px;
+}
+
+.active:after {
+    content: '\2212';
+}
+
+.panel {
+    padding: 0 18px;
+    background-color: white;
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.2s ease-out;
+}
+/**************sidebar*******************/
+ .sidenav {
+    height: 99%;
+    width: 160px;
+    position: fixed;
+    z-index: 1;
+    top: 0;
+    left: 0;
+    background-color: #111;
+    overflow-x: hidden;
+    padding-top: 20px;
+  }
+  
+  .sidenav a {
+    padding: 6px 8px 10px 16px;
+    text-decoration: none;
+    font-size: 20px;
+    color: rgb(129, 129, 129);
+    display: block;
+    font-family: 'Roboto', sans-serif;
+    border-bottom: solid rgba(129, 129, 129, 0.30) .5px;
+  }
+  
+  .sidenav a:hover {
+    color: #f1f1f1;
+  }
+  
+  header, main {
+    margin-left: 160px; /* Same as the width of the sidenav */
+    padding: 0px 10px;
+  }
+  
+  @media screen and (max-height: 450px) {
+    .sidenav {padding-top: 15px;}
+    .sidenav a {font-size: 18px;}
+  }
